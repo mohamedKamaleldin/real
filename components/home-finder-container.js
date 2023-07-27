@@ -1,38 +1,14 @@
 import { useCallback } from "react";
 import "antd/dist/antd.min.css";
 import { Menu, Dropdown, Button } from "antd";
-import {
-  DownOutlined,
-  ArrowLeftOutlined,
-  ArrowRightOutlined,
-  CalendarOutlined,
-  CheckOutlined,
-  ClockCircleOutlined,
-  CloseOutlined,
-  DeleteOutlined,
-  EditOutlined,
-  ExclamationCircleOutlined,
-  HeartOutlined,
-  LeftOutlined,
-  LockOutlined,
-  MailOutlined,
-  PaperClipOutlined,
-  PhoneOutlined,
-  QuestionCircleOutlined,
-  ReloadOutlined,
-  RightOutlined,
-  SearchOutlined,
-  SendOutlined,
-  ShareAltOutlined,
-  UserOutlined,
-} from "@ant-design/icons";
+import {DownOutlined,} from "@ant-design/icons";
 import { useRouter } from "next/router";
 
 const HomeFinderContainer = () => {
   const router = useRouter();
 
   const onSearchCTAClick = useCallback(() => {
-    router.push("/properties-grid-view");
+    router.push("/properties");
   }, [router]);
 
   return (
@@ -67,10 +43,15 @@ const HomeFinderContainer = () => {
                 <div className="relative leading-[24px] capitalize font-semibold">
                   Locations
                 </div>
+
                 <Dropdown
                   overlay={
                     <Menu>
-                      {[{ value: "new York" }].map((option, index) => (
+                      {[
+                        { value: "new York" },
+                        { value: "Egypt" },
+                        { value: "Turkey" },
+                      ].map((option, index) => (
                         <Menu.Item key={index}>
                           <a onClick={(e) => e.preventDefault()}>
                             {option.value || ""}
@@ -82,16 +63,18 @@ const HomeFinderContainer = () => {
                   placement="bottomLeft"
                   trigger={["hover"]}
                 >
-                  <Button onClick={(e) => e.preventDefault()}>
+                  <a onClick={(e) => e.preventDefault()}>
                     {`Select your city `}
                     <DownOutlined />
-                  </Button>
+                  </a>
                 </Dropdown>
+
               </div>
               <div className="w-[177px] flex flex-col items-start justify-start gap-[16px]">
                 <div className="relative leading-[24px] capitalize font-semibold flex items-end w-[150px]">
                   Property Type
                 </div>
+
                 <Dropdown
                   className="self-stretch"
                   overlay={

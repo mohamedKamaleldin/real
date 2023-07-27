@@ -16,7 +16,7 @@ const LandingPage = () => {
         <meta name="description" content="Discover your perfect home" />
       </Head>
       <div className="relative bg-gray-white w-full h-[5095.99px] flex flex-col items-center justify-start">
-        <Header hamburger={false} />
+        <Header />
         <HomeFinderContainer />
         <AreaPropertiesDiv />
         <Footer />
@@ -24,12 +24,6 @@ const LandingPage = () => {
         <RentPropertiesForm />
         <RentCard />
         <Footer2
-          houseLine="/houseline1.svg"
-          socialMediaLogo="/social-media-logo.svg"
-          socialMediaLogo1="/social-media-logo1.svg"
-          socialMediaLogo2="/social-media-logo2.svg"
-          socialMediaLogo3="/social-media-logo3.svg"
-          socialMediaLogo4="/social-media-logo4.svg"
         />
       </div>
     </>

@@ -16,7 +16,7 @@ const RentPropertiesContainer = () => {
         </div>
         <div className="self-stretch flex flex-row flex-wrap py-0 px-2.5 items-center justify-center gap-[32px] text-left text-[14.51px] text-gray-700">
           <CardContainer
-            propertyImage="/unsplashrlwe8f8anoc@2x.png"
+            imgUrl="/unsplashrlwe8f8anoc@2x.png"
             car="/car.svg"
             bathtub="/bathtub.svg"
             arrowsOut="/arrowsout.svg"
@@ -24,7 +24,7 @@ const RentPropertiesContainer = () => {
             plus="/plus.svg"
           />
           <CardContainer
-            propertyImage="/unsplashrlwe8f8anoc1@2x.png"
+            imgUrl="/unsplashrlwe8f8anoc1@2x.png"
             car="/car.svg"
             bathtub="/bathtub.svg"
             arrowsOut="/arrowsout.svg"
@@ -32,7 +32,7 @@ const RentPropertiesContainer = () => {
             plus="/plus1.svg"
           />
           <CardContainer
-            propertyImage="/unsplashrlwe8f8anoc2@2x.png"
+            imgUrl="/unsplashrlwe8f8anoc2@2x.png"
             car="/car1.svg"
             bathtub="/bathtub1.svg"
             arrowsOut="/arrowsout1.svg"
@@ -40,7 +40,7 @@ const RentPropertiesContainer = () => {
             plus="/plus2.svg"
           />
           <CardContainer
-            propertyImage="/unsplashrlwe8f8anoc3@2x.png"
+            imgUrl="/unsplashrlwe8f8anoc3@2x.png"
             car="/car1.svg"
             bathtub="/bathtub1.svg"
             arrowsOut="/arrowsout1.svg"
