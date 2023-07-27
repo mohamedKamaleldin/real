@@ -11,7 +11,7 @@ const CardContainer = ({
       <img
         className="self-stretch relative rounded-3xs max-w-full overflow-hidden h-[200px] shrink-0 object-cover"
         alt=""
-        src={propertyImage}
+        src="/propertyImage.svg"
       />
       <div className="self-stretch flex flex-row p-2.5 items-start justify-start">
         <div className="flex-1 relative leading-[20.32px] font-medium">
@@ -32,7 +32,7 @@ const CardContainer = ({
           <img
             className="relative w-[17.42px] h-[17.42px]"
             alt=""
-            src={bathtub}
+            src="/bathtub.svg"
           />
           <div className="relative leading-[16.27px] font-medium">4</div>
         </div>
@@ -40,7 +40,7 @@ const CardContainer = ({
           <img
             className="relative w-[17.42px] h-[17.42px]"
             alt=""
-            src={arrowsOut}
+            src="/arrowsOut.svg"
           />
           <div className="relative leading-[16.27px] font-medium">
             2,096.00 ft
@@ -63,7 +63,7 @@ const CardContainer = ({
             <img
               className="relative w-[14.51px] h-[14.51px]"
               alt=""
-              src={shareNetwork}
+              src="/sharenetwork.svg"
             />
           </div>
           <div className="rounded-[1.45px] bg-primary-50 flex flex-row p-[2.902620315551758px] items-start justify-start">
@@ -77,7 +77,7 @@ const CardContainer = ({
             <img
               className="relative w-[14.51px] h-[14.51px]"
               alt=""
-              src={plus}
+              src="/plus.svg"
             />
           </div>
         </div>
