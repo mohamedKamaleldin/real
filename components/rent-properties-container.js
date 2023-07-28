@@ -50,9 +50,9 @@ const RentPropertiesContainer = () => {
         </div>
       </div>
       <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded flex flex-row items-start justify-start">
-        <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
+        <a href="./properties" className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
           Load more listing
-        </div>
+        </a>
       </button>
     </div>
   );

@@ -27,14 +27,14 @@ const HomeFinderContainer = () => {
         <div className="self-stretch flex flex-col items-center justify-start gap-[17px] text-left text-base text-primary-700 font-body-large-400">
           <div className="flex flex-row items-start justify-start gap-[10px]">
             <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded overflow-hidden flex flex-row items-start justify-start">
-              <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
+              <a href="properties" className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
                 Rent
-              </div>
+              </a>
             </button>
             <button className="cursor-pointer [border:none] py-3 px-6 bg-gray-white rounded overflow-hidden flex flex-row items-start justify-start">
-              <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-primary-400 text-center">
+              <a href="properties"  className="relative text-base leading-[24px] font-medium font-body-large-400 text-primary-400 text-center">
                 Sale
-              </div>
+              </a>
             </button>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-start justify-center">

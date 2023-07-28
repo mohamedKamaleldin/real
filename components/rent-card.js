@@ -22,17 +22,25 @@ const RentCard = () => {
           </div>
           <div className="self-stretch flex flex-col items-center justify-start gap-[10px]">
             <input
-              className="[border:none] font-roboto text-base bg-[transparent] self-stretch flex flex-row items-start justify-center md:flex-col md:gap-[10px] md:items-start md:justify-center"
+              className="font-roboto text-base bg-[transparent] self-stretch rounded flex flex-col py-4 px-3 items-start justify-start border-[1px] border-solid border-gray"
               type="text"
-              defaultValue="Last name"
-              placeholder="First name"
+              placeholder="Frist Name"
               maxLength={100}
               minLength={2}
+              required
+            />
+            <input
+              className="font-roboto text-base bg-[transparent] self-stretch rounded flex flex-col py-4 px-3 items-start justify-start border-[1px] border-solid border-gray"
+              type="text"
+              placeholder="Last Name"
+              maxLength={100}
+              minLength={2}
+              required
             />
             <input
               className="font-roboto text-base bg-[transparent] self-stretch rounded flex flex-col py-4 px-3 items-start justify-start border-[1px] border-solid border-gray"
               type="email"
-              placeholder="Email id"
+              placeholder="Email"
               required
             />
             <input
@@ -41,8 +49,11 @@ const RentCard = () => {
               placeholder="Comments or questions"
               required
             />
-            <button className="cursor-pointer [border:none] p-0 bg-primary-500 rounded w-[222px] h-[46px] flex flex-col items-center justify-center">
-              <div className="relative text-base font-roboto text-gray-white text-center inline-block w-[203.12px]">
+
+            <button className="cursor-pointer [border:none] p-0
+             bg-primary-500 rounded w-[222px] h-[46px] flex flex-col 
+             items-center justify-center hover:bg-sky-700 " type="submit">
+              <div className="relative text-base font-roboto text-gray-white text-center inline-block w-[203.12px] ">
                 Submit
               </div>
             </button>

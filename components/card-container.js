@@ -11,7 +11,7 @@ const CardContainer = ({
       <img
         className="self-stretch relative rounded-3xs max-w-full overflow-hidden h-[200px] shrink-0 object-cover"
         alt=""
-        src="/propertyImage.svg"
+        src={propertyImage}
       />
       <div className="self-stretch flex flex-row p-2.5 items-start justify-start">
         <div className="flex-1 relative leading-[20.32px] font-medium">

@@ -22,7 +22,7 @@ const Footer2 = () => {
             <div className=" text-5xl leading-[32px] font-semibold text-gray-black">
               Contact Us
             </div>
-            <div className=" leading-[24px]">Call : +123 400 123</div>
+            <div className=" leading-[24px]">Call : +90 541 961 68 35</div>
             <div className=" leading-[24px] flex items-end w-[312px]">
               Praesent nulla massa, hendrerit vestibulum gravida in, feugiat
               auctor felis.
@@ -32,48 +32,48 @@ const Footer2 = () => {
             </div>
           </div>
           <div className="w-[304px] flex flex-row items-center justify-between">
-            <div className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
+            <a href="https://www.instagram.com/m.ke.e/" className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
               <img
                 className=" w-5 h-[21.67px]"
                 alt=""
                 src="/social-media-logo.svg"
               />
-            </div>
-            <div className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
+            </a>
+            <a href="https://www.instagram.com/m.ke.e/"  className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
               <img
                 className=" w-5 h-5 overflow-hidden shrink-0"
                 alt=""
                 src="/social-media-logo1.svg"
               />
-            </div>
-            <div className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
+            </a>
+            <a href="https://www.instagram.com/m.ke.e/"  className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
               <img
                 className=" w-5 h-5 overflow-hidden shrink-0"
                 alt=""
                 src="/social-media-logo2.svg"
               />
-            </div>
-            <div className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
+            </a>
+            <a href="https://www.instagram.com/m.ke.e/"  className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
               <img
                 className=" w-5 h-5 overflow-hidden shrink-0"
                 alt=""
                 src="/social-media-logo3.svg"
               />
-            </div>
-            <div className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
+            </a>
+            <a href="https://www.instagram.com/m.ke.e/"  className="rounded bg-primary-50 flex flex-col p-3.5 items-center justify-center">
               <img
                 className=" w-5 h-5 overflow-hidden shrink-0"
                 alt=""
                 src="/social-media-logo4.svg"
               />
-            </div>
+            </a>
           </div>
         </div>
         <div className="w-[173px] h-[248px] flex flex-col items-start justify-start gap-[32px]">
           <div className=" leading-[32px] font-semibold">Features</div>
           <div className="self-stretch h-[184px] flex flex-col items-start justify-start gap-[16px] text-base text-gray-500">
-            <div className=" leading-[24px]">Home</div>
-            <div className=" leading-[24px]">Become a Host</div>
+            <a href="./" className=" text-gray-500  leading-[24px]">Home</a>
+            <a href="./" className=" text-gray-500 leading-[24px]">Become a Host</a>
             <div className=" leading-[24px]">Pricing</div>
             <div className=" leading-[24px]">Blog</div>
             <div className=" leading-[24px]">Contact</div>

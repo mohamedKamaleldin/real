@@ -14,17 +14,15 @@ const Header = ({ hamburger }) => {
           </div>
         </Link>
         <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-primary-900 sm:flex">
-          <div className="flex flex-row items-start justify-start gap-[30px] lg:hidden">
-            <div className=" leading-[22px]">HOME</div>
-            <div className=" leading-[22px]">ABOUT US</div>
-            <div className=" leading-[22px]">OUR AGENTS</div>
-            <div className=" leading-[22px] font-semibold">
-              PROPERTIES
-            </div>
-            <div className=" leading-[22px]">GALLERY</div>
-            <div className=" leading-[22px]">BLOG</div>
-            <div className=" leading-[22px]">CONTACT US</div>
-            <div className=" leading-[22px]">SEARCH</div>
+          <div className="flex flex-row items-start justify-start gap-[30px] lg:hidden ">
+            <a href="./properties"  className="text-black leading-[22px] ">HOME</a>
+            <a className=" leading-[22px] text-black ">ABOUT US</a>
+            <a className=" leading-[22px] text-black">OUR AGENTS</a>
+            <a  href="./" className="text-black leading-[22px] ">PROPERTIES</a>
+            <a className=" leading-[22px] text-black">GALLERY</a>
+            <a className=" leading-[22px] text-black">BLOG</a>
+            <a className=" leading-[22px] text-black">CONTACT US</a>
+            <a className=" leading-[22px] text-black">SEARCH</a>
           </div>
           {!hamburger && (
             <button className="cursor-pointer [border:none] p-0 bg-[transparent] hidden flex-row items-center justify-center lg:flex">
